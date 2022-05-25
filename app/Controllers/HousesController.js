@@ -14,7 +14,7 @@ function _drawHouses() {
 
 export class HousesController{
  constructor(){
-   console.log('Houses controller loaded', ProxyState.houses);
+  //  console.log('Houses controller loaded', ProxyState.houses);
    ProxyState.on('houses', _drawHouses)
   //  Don't draw in the constructor if you want cars to be the default landing page
   //  _drawHouses() 

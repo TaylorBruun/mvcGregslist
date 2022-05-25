@@ -5,7 +5,7 @@ export function getHouseForm(){
               <h3> List a House </h3>
                 <div class="row">
                   <div class="col-3 mb-2">
-                    <label for="" class="form-label">Make</label>
+                    <label for="" class="form-label">Address</label>
                     <input required type="text" name="address" id="address" placeholder="Enter the house address" maxlength="30"
                       minlength="3" class="form-control" placeholder="" aria-describedby="helpId"
                       title="please enter the address">
