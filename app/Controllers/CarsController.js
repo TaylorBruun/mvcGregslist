@@ -14,7 +14,7 @@ function _drawCars(){
 
 export class CarsController{
   constructor(){
-    console.log('cars controller loaded', ProxyState.cars);
+    // console.log('cars controller loaded', ProxyState.cars);
     ProxyState.on('cars', _drawCars)
     this.viewCars()
   }
@@ -44,7 +44,7 @@ export class CarsController{
       imgUrl: form.imgUrl.value,
       color : form.color.value
     }
-    console.log('the new car',carData);
+    console.log('the new car', carData);
     // ... and pass it to the service
     carsService.createCar(carData)
     form.reset()
